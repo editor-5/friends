@@ -1,0 +1,23 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    margin-bottom: 40px;
+    color: #343a40;
+}
+
+.card {
+    border: none;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
